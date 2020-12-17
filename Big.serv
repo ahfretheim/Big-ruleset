@@ -1,0 +1,6 @@
+# Server commands to use big Freeciv rules
+#
+
+rulesetdir big
+
+# changed game settings are defined in game.ruleset

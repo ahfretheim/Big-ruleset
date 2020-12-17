@@ -1,0 +1,171 @@
+[nation_californian]
+
+name=_("Californian")
+plural=_("?plural:Californios")
+groups="American", "Early Modern"
+legend=_("California was first settled by the Spanish in the early 1700's\
+ as a highly autonomous mission territory of the Catholic Church and the Spanish\
+ Empire, led by Saint Junipero Serra, developed along its coast through a network\
+ of missions and presidios, and attempted to declare independence from Mexico\
+ several times, with one final attempt (the Bear Flag Revolt) as the US Cavalry\
+ was crossing the mountains to conquer it. The Bear Flag Revolts leader, William B.\
+ Ide, was humiliatingly pressed in to service with the US Army as a private, but the\
+ revolt gives the modern US state its current flag.")
+
+leaders = {
+ "name",                  "sex"
+ "Junípero Serra",        "Male" ; Missionary
+ "William B. Ide",        "Male" ; Commander of California Republic
+ "John C. Frémont",       "Male" ; Conqueror and military governor
+ "Joaquin Murrieta",      "Male" ; Outlaw
+ "George Donner",         "Male" ; Patriarch of the Donner Party
+ "John D. Sloat",         "Male" ; Unaffiliated Commodore who claimed California for the US
+ "Ezekiel Merritt",       "Male" ; Ide's Lieutenant
+ "Mariano G. Vallejo",    "Male" ; Prominent Spanish Rancher who backed the Bear Flag Revolt
+ "John Sutter",           "Male" ; Highly influential German Swiss colonist
+                                 ; and military commander
+ "Pío de Jesús Pico",     "Male" ; Last Mexican Governor of California
+ "Tamsen Donner",         "Female" ; Matron of the Donner Party
+}
+
+ruler_titles = {
+ "government",      "male_title",      "female_title"
+ "Despotism",       _("Sheriff %s"),   _("?female:Sheriff %s")
+ "Fundamentalism",  _("Padre %s"),     _("Madre %s")
+ "Theocracy",       _("Abbot %s"),	_("Mother Superior %s")
+ "Republic",        _("Governor %s"),  _("?female:Governor %s")
+}
+
+flag="california"
+flag_alt = "usa"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+
+civilwar_nations="confederate", "chumash", "ohlone"
+
+cities =
+ "Sacramento (grassland, river)", ;state capital
+ "Sonoma (hills)", ;capital of California Republic
+ "Monterey (ocean, hills)", ;capital of Spanish and Mexican California
+ "Fort Ross (ocean, forest)", ;capital of Russian California
+ "Fort Sutter (!ocean, plains, grassland)", ;where Bear Flag Revolt started
+ "Tulare (desert)", ;Lake Tulare was once the largest lake in the American West
+ "San Francisco (ocean, hills)",
+ "Bodie (!ocean, desert)", ;Famous California Gold Rush ghost town
+ "Calico (!ocean, desert, hills)", ;Another Famous California Gold Rush ghost town
+ "Coloma (!ocean, river)", ;Another Famous California Gold Rush ghost town
+ "Los Angeles (ocean, mountains)",
+ "San Diego (ocean, desert)",
+ "Napa (!ocean, hills, river)",
+ "San Jose (hills)",
+ "San Mateo (grassland, ocean)",
+ "Fresno (!ocean, plains, grassland, forest)",
+ "Long Beach (ocean)",
+ "San Simeon (ocean, hills)",
+ "Auburn (mountains)",
+ "Santa Maria (plains, hills)",
+ "Placerville (mountains)",
+ "Chico (river, plains)",
+ "Sutters Mill (!ocean, river, grassland)",
+ "Santa Ana (plains)",
+ "Palm Springs (!ocean, desert)",
+ "Barstow (!ocean, desert, mountains)",
+ "San Pedro (ocean, plains)",
+ "Truckee (mountains)",
+ "Danville (!ocean, forest, hills)",
+ "Bakersfield (!ocean, plains, grassland, hills, forest)",
+ "Riverside (river, desert)",
+ "Stockton (river, plains)",
+ "Lompoc (hills, ocean)",
+ "Chula Vista (hills)",
+ "Mendecino (forest, ocean)",
+ "Mount Shasta (mountains)",
+ "Morro Bay (ocean)",
+ "Atascadero (swamp)",
+ "Cambria (hills, forest)",
+ "Coalinga (hills)",
+ "Lone Pine (desert, mountains)",
+ "Yreka (desert)",
+ "Redding (forest)",
+ "El Centro (!ocean, desert)",
+ "Anaheim (plains, hills)",
+ "Berkeley",
+ "Modesto",
+ "Glendale",
+ "San Bernardino",
+ "Huntington Beach (ocean)",
+ "El Segundo (swamp, ocean)",
+ "Oxnard",
+ "Fontana",
+ "Moreno Valley",
+ "Oceanside (ocean)",
+ "Rancho Cucamonga",
+ "Santa Clarita",
+ "Ontario",
+ "Pomona",
+ "Santa Rosa",
+ "Salinas",
+ "Palmdale",
+ "Hayward",
+ "Pasadena (mountains)",
+ "Torrance",
+ "Corona",
+ "Lancaster",
+ "Escondido",
+ "Orange",
+ "Elk Grove",
+ "Sunnyvale",
+ "Fullerton",
+ "Thousand Oaks (forest)",
+ "El Monte (mountains, hills)",
+ "Simi Valley",
+ "Concord",
+ "Visalia",
+ "Vallejo",
+ "Inglewood",
+ "Santa Clara",
+ "Carson",
+ "Santa Monica (ocean)",
+ "Santa Barbara",
+ "Alhambra",
+ "Eureka",
+ "San Rafael",
+ "Redwood City (forest)",
+ "Ventura",
+ "Temecula",
+ "Benicia",
+ "Vacaville",
+ "Turlock",
+ "Indio",
+ "Merced",
+ "Redlands",
+ "San Luis Obispo",
+ "Lake Tahoe (lake)",
+ "Calexico",
+ "Martinez",
+ "Fairfield",
+ "Auburn",
+ "Santa Cruz",
+ "Oroville",
+ "Woodland (forest)",
+ "Hanford",
+ "Madera",
+ "Nevada City",
+ "Yuba City",
+ "Ukiah",
+ "Marysville",
+ "Lakeport (lake)",
+ "Red Bluff (!ocean, forest)",
+ "Hollister (ocean, hills)",
+ "Sonora",
+ "San Andreas",
+ "Jackson",
+ "Susanville",
+ "Crescent City (ocean, forest)",
+ "Willows",
+ "Colusa",
+ "Quincy"
+
